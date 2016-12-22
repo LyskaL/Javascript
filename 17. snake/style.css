@@ -1,0 +1,63 @@
+body {
+     background: url("IMG/snake.jpg") no-repeat;
+}
+
+#statusBar, #canvas {
+    margin-left: 35%;
+}
+
+#canvas {
+    height: 450px;
+    width: 450px;
+    background-color: rgb(197,211,122);
+    border: 2px solid rgb(214,223,169);
+}
+
+#statusBar {
+    width: 450px;
+    height: 53px;
+    background-color: rgb(197,211,122);
+    border-left: 2px solid rgb(214,223,169);
+    border-top: 2px solid rgb(214,223,169);
+    border-right: 2px solid rgb(214,223,169);
+}
+
+.text {
+    position: relative;
+    bottom: 15px;
+    font-size: 26px;
+    font-weight: bold;
+    margin-left: 5px;
+    display: inline-block;
+}
+
+img {
+    margin-left: 5px;
+}
+
+#newGame {
+    border-radius: 10px;
+    border: 1px solid rgb(121,146,3);
+    position: absolute;
+    left: 60%;
+    top: 2.5%;
+    width: 85px;
+    height: 20px;
+
+    padding: 10px;
+
+    display: inline-block;
+    background-color: rgb(134,162,4);
+    cursor: pointer;
+    text-align: center;
+    font-weight: bold;
+
+    -webkit-user-select: none;
+    -moz-user-select: none; /* mozilla browsers */
+    -khtml-user-select: none; /* webkit (konqueror) browsers */
+    -ms-user-select: none; /* IE10+ */
+}
+
+#newGame:hover {
+    background-color: rgb(164,198,4);
+}
